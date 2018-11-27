@@ -1,0 +1,23 @@
+
+.InfoPanel {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: 200ms ease;
+    background: white;
+    overflow: scroll;
+    padding: 2rem;
+  }
+  
+  .InfoPanel.no-data {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+
+  .InfoPanel .close-button {
+      right: 1rem;
+      position: absolute;
+  }

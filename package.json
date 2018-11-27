@@ -1,0 +1,14 @@
+{
+  "name": "fire-enrichment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently –kill-others-on-fail \"yarn start:frontend\" \"yarn start:backend\"",
+    "start:frontend": "cd client && yarn start",
+    "start:backend": "nodemon -w ./server ./server/bin/www"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "node-fetch": "^2.3.0"
+  }
+}
