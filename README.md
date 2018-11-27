@@ -7,8 +7,10 @@ This app has two projects, a Node Express app for the back end and a React app f
 
 *Installing and running*
 1. run `yarn install`
-2. run `yarn start`
-3. In order to test a new CAD data file, replace the data.json file located within the data folder.
+2. run `cd client && yarn install`
+3. run `cd ..\server && yarn install`
+4. run `cd .. && yarn start`
+5. In order to test a new CAD data file, replace the data.json file located within the data folder.
 
 *Next steps*
 1. The example app performs enrichment when the client app loads. A better structure would allow the backend processing to be saved into a database and served up faster.
