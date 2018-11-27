@@ -14,7 +14,7 @@ This app has two projects, a Node Express app for the back end and a React app f
 
 *Next steps*
 1. The example app performs enrichment when the client app loads. A better structure would allow the backend processing to be saved into a database and served up faster.
-2. The client side display of attributes needs a lot of improvement. We should add an info panel to the side that has expando sections for each major type (e.g. weather, location, etc.)
+2. The client side display of attributes needs a lot of improvement. We should add an info panel to the side that has expando sections for each major type (e.g. weather, location, etc.) UPDATE: added one!
 3. More interesting derived data products can b
 
 *Total time spent*
